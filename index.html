@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Port<span>folio</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="#" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Learning</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, This is</div>
+                <div class="text-2">MD.Fahim-Ul-Islam</div>
+                <div class="text-3">And this is my personal portfolio website <span class="typing"></span></div>
+                <blockquote>“Remember, hope is a good thing, maybe the best of things, and 
+                    no good thing ever dies.” 
+                    —Stephen King</blockquote>
+                <a href="https://www.linkedin.com/in/fahim-ul-islam-99707b214/">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About myself</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="myphoto.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Fahim and I'm  <span class="typing-2"></span></div>
+                    <p> Currently studying in Computer Science & Engineering at BRAC University. And In Sha Allah i will pursue my career in that sector.
+                        To develop my skills,knowledge and experience in that sector,I am firmly determined Iooking for new opportunities. I am really passionate about taking new challenges. 
+                        Focused, motivated and hardworking with the help of Almighty Allah.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Learning Process</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Software Engineering</div>
+                        <p>As this industry is so vast and fastly growing,so my
+                            learning interest will be always be in my higher priority.So I am working on
+                            projects for sharpening my expertise in that section 
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">ML,DL,IoT</div>
+                        <p>Deep Learning is a method of specialized machine learning that utilizes multi-layered recursive convolutional neural networks.Currently doing my thesis on these fascinating topics.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Marketing</div>
+                        <p>The marketing department is critical in promoting an organization's business and mission.
+                            It acts as your firm's public face, organizing and generating all materials that reflect the company.
+
+                        </p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+  <!---- skills section start -->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My willings</div>
+                    <p>As I am studying in Computer Science & Engineering,my skills will always be updating.Learning new stuffs is a must for this sectors.I love to do coding and solving problems.I also love to do building and learning creative stuffs with the help of programming languages and their frameworks</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascript</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+        <body>
+        
+        
+ <a class="fonting" href="hobbies.html">My HOBBIES</a>   <br>
+
+    
+
+
+<a class="fonting" href="find.html">Contact Me</a>
+
+
+
+
+    
+    
+    
+   
+
+    <!-- footer section start -->
+
+
+</body><footer>
+        <p>© MD.Fahim-Ul-Islam 2022, all rights reserved.</p>
+        <p>Last Updated:</p>
+        <p id="tracker"></p>
+        <script>
+            const date = new Date(document.lastModified);
+            document.getElementById("tracker").innerHTML = date;
+        </script>
+    </footer>
+</html>
